@@ -1,4 +1,4 @@
-## HSReplay
+# HSReplay
 
 HSReplay is a replay format for [Hearthstone](https://playhearthstone.com/).
 
@@ -9,20 +9,31 @@ The extension for HSReplay files is `.hsreplay`.
 The MIME Type is `application/vnd.hearthsim-hsreplay+xml`.
 
 
+## Documentation
+
+Spec docs are available [here](https://hearthsim.info/hsreplay/).
+
+Documentation for the Hearthstone Gamestate Protocol, which HSReplay mirrors,
+is available [here](https://hearthsim.info/docs/gamestate-protocol/).
+
+
 ## Implementations
 
-Two reference implementations are currently available: Python and C#.
-They each contain capabilities for reading the `Power.log` files generated
-by Hearthstone when logging is enabled.
+There is currently only one official implementation of the HSReplay format:
 
-For more information, see
-[How to enable logging](https://github.com/jleclanche/fireplace/wiki/How-to-enable-logging).
+* https://github.com/HearthSim/python-hsreplay (read, write)
 
 If you are interested in developing reference implementations in other
-languages, please get in touch through our `#hearthsim` channel (see below).
+languages, please get in touch by filing an issue!
+
+
+## License
+
+The HSReplay spec is licensed CC0. This puts it in the public domain.
+The full license text is available in the LICENSE file.
 
 
 ## Community
 
-HSReplay is a [HearthSim](https://hearthsim.info) project. All development
-happens on our IRC channel `#hearthsim` on [Freenode](https://freenode.net).
+HSReplay is a [HearthSim](https://hearthsim.info) project.
+Join the community: <https://hearthsim.info/join/>
