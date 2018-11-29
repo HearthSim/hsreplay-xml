@@ -357,6 +357,12 @@
 	target %entity; #IMPLIED
 	ts %timestamp; #IMPLIED>
 
+<!--
+ ! Resets the current game.
+-->
+<!ELEMENT ResetGame EMPTY>
+<!ATTLIST ResetGame
+	ts %timestamp; #IMPLIED>
 
 <!--
  ! Decklist support
