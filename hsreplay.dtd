@@ -63,7 +63,7 @@
  ! format: A FormatType enum value. Optional.
  ! scenarioID: A Scenario ID value. Optional.
 -->
-<!ELEMENT Game (Block | ChangeEntity | Choices | ChosenEntities | FullEntity | GameEntity | HideEntity | Options | Player | SendChoices | SendOption | ShowEntity | TagChange)*>
+<!ELEMENT Game (Block | ChangeEntity | Choices | ChosenEntities | FullEntity | GameEntity | HideEntity | Options | Player | ResetGame | SendChoices | SendOption | ShowEntity | TagChange)*>
 <!ATTLIST Game
 	id NMTOKEN #IMPLIED
 	type %enumValue; #IMPLIED
