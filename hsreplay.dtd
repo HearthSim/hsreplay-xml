@@ -225,8 +225,7 @@
 <!ELEMENT Info EMPTY>
 <!ATTLIST Info
 	index NMTOKEN #IMPLIED
-	entity %entity; #REQUIRED
-	ts %timestamp; #IMPLIED>
+	entity %entity; #REQUIRED>
 
 
 <!-- Choices -->
