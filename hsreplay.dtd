@@ -208,13 +208,13 @@
  ! meta: A MetaDataType enum value
  ! data: The data integer. In the case of JOUST, is an entity. Defaults to 0.
  ! entity: An entity definition (aka "data"). Defaults to 0
- ! info: The info count. SHOULD NOT be included if Info tags are available.
+ ! infoCount: The info count. SHOULD NOT be included if Info tags are available.
 -->
 <!ELEMENT MetaData (Info*)>
 <!ATTLIST MetaData
 	meta %enumValue; #REQUIRED
 	data NMTOKEN "0"
-	info NMTOKEN #IMPLIED
+	infoCount NMTOKEN #IMPLIED
 	ts %timestamp; #IMPLIED>
 
 <!--
